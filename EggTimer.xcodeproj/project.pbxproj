@@ -13,6 +13,7 @@
 		E634248B27F38E67004318E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E634248927F38E67004318E3 /* Main.storyboard */; };
 		E634248D27F38E67004318E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E634248C27F38E67004318E3 /* Assets.xcassets */; };
 		E634249027F38E67004318E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E634248E27F38E67004318E3 /* LaunchScreen.storyboard */; };
+		E634249827F3AAB7004318E3 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E634249727F3AAB7004318E3 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E634248C27F38E67004318E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E634248F27F38E67004318E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E634249127F38E67004318E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E634249727F3AAB7004318E3 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E634248227F38E67004318E3 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				E634249727F3AAB7004318E3 /* alarm_sound.mp3 */,
 				E634248327F38E67004318E3 /* AppDelegate.swift */,
 				E634248527F38E67004318E3 /* SceneDelegate.swift */,
 				E634248727F38E67004318E3 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				E634249027F38E67004318E3 /* LaunchScreen.storyboard in Resources */,
 				E634248D27F38E67004318E3 /* Assets.xcassets in Resources */,
+				E634249827F3AAB7004318E3 /* alarm_sound.mp3 in Resources */,
 				E634248B27F38E67004318E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
